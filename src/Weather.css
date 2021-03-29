@@ -3,7 +3,8 @@
   border: 1px solid #dadde1;
   padding: 16px;
   border-radius: 10px;
-  color: rgb(135, 135, 135);
+  color: black;
+  background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
 }
 
 .Weather h1 {
@@ -28,7 +29,7 @@
   font-weight: 400;
   line-height: 19px;
   list-style: none;
-  color: #6c6d71;
+  color: #424642;
   font-family: "Exo 2", sans-serif;
 }
 
@@ -37,7 +38,7 @@
 }
 
 .Weather .search-button {
-  color: gray;
+  color: #536162;
   width: 85px;
   border-radius: 6px;
   border: 0px #1495c4;
