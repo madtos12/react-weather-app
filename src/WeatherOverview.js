@@ -2,6 +2,8 @@ import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
+import Humidity from "./images/humidity.png";
+import Wind from "./images/wind.png";
 
 export default function WeatherOverview(props) {
   return (
@@ -27,8 +29,14 @@ export default function WeatherOverview(props) {
         </div>
         <div className="col-5">
           <ul>
-            <li>Humidity: {props.data.humidity}%</li>
-            <li>Wind: {Math.round(props.data.wind)} km/h</li>
+            <li>
+              <img className="humidity-icon" src={Humidity} alt="humidity" />
+              <span className="humidity"> {props.data.humidity}%</span>
+            </li>
+            <li>
+              <img className="wind-icon" src={Wind} alt="wind" />
+              <span className="wind"> {Math.round(props.data.wind)} km/h</span>
+            </li>
           </ul>
         </div>
       </div>
