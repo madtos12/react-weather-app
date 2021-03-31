@@ -64,16 +64,11 @@ export default function Weather(props) {
               />
             </div>
             <div className="col-4">
-              <button
-                className="btn btn-outline-secondary"
-                type="submit"
-                id="city-submit-button"
-              >
+              <button className="btn btn-outline-secondary" type="submit">
                 <i className="fas fa-search"></i>
               </button>
               <button
                 className="btn btn-outline-secondary"
-                id="current-location"
                 onClick={getCurrentPosition}
               >
                 <i className="fas fa-map-marker-alt"></i>
