@@ -1,6 +1,6 @@
 .Weather {
-  font-family: arial, sans-serif;
-  border: 1px solid #dadde1;
+  font-family: "Exo 2", sans-serif;
+  border: 1px solid black;
   padding: 16px;
   border-radius: 10px;
   color: black;
@@ -22,7 +22,6 @@
   padding: 0;
   text-align: center;
   color: #6c6d71;
-  font-family: "Exo 2", sans-serif;
 }
 
 .Weather li {
@@ -31,7 +30,6 @@
   line-height: 19px;
   list-style: none;
   color: #424642;
-  font-family: "Exo 2", sans-serif;
 }
 
 .Weather canvas {
@@ -42,11 +40,19 @@
   background: transparent;
   border-style: none;
   color: #424642;
+  padding: 6px 8px;
   transition: all 200ms ease-in-out;
 }
 
 button:hover {
   cursor: pointer;
+}
+
+hr {
+  color: #323232;
+  position: relative;
+  margin: 6px;
+  margin-top: 15px;
 }
 
 .Weather .temperature {
@@ -55,7 +61,7 @@ button:hover {
   font-size: 60px;
   line-height: 64px;
   margin-left: 5px;
-  font-weight: 400;
+  font-weight: 500;
   margin-left: 10px;
 }
 
@@ -70,7 +76,7 @@ button:hover {
 
 .Weather .current-date {
   margin-top: 16px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .Weather .weather-description {
